@@ -1,0 +1,33 @@
+.intro {
+  text-align: center;
+
+  //   .intro__inner
+  &__inner {
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 933px;
+  }
+
+  //   .intro__subtitle
+  &__subtitle {
+    margin-bottom: 9px;
+  }
+
+  //   .intro__title
+  &__title {
+    margin-bottom: 34px;
+    @media (max-width: $breakpoint-mob) {
+      font-size: 25px;
+      font-weight: 700;
+    }
+  }
+
+  //   .intro__comment
+  &__comment {
+    margin-bottom: 57px;
+    @media (max-width: $breakpoint-mob) {
+      margin-bottom: 20px;
+    }
+  }
+}

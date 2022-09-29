@@ -1,0 +1,36 @@
+html {
+  color: $color-brown-light;
+  height: 100%;
+  background-color: $color-simple-pink;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-main;
+  font-size: $font-size-main-text;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+td,
+th,
+button,
+span,
+b,
+i {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}

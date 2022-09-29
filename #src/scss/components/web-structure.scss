@@ -1,0 +1,10 @@
+.web-structure {
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    @media (max-width: $breakpoint-mob) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}

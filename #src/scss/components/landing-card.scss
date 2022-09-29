@@ -1,0 +1,23 @@
+.landing-card {
+  margin: 0 auto;
+  // .landing-card__inner
+  &__inner {
+    text-align: center;
+  }
+  // .landing-card__title
+  &__title {
+    max-width: 520px;
+    padding: 20px 0;
+    background-color: $color-simple-white;
+    @media (max-width: $breakpoint-tablet-md) {
+    }
+  }
+  // .landing-card__image
+  &__image {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    max-width: 520px;
+    height: 100%;
+  }
+}

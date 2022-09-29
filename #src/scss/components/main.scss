@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  max-width: 1230px;
+  height: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  @media (max-width: $breakpoint-desktop-md) {
+    width: $container-max-width-desktop-md;
+  }
+  @media (max-width: $breakpoint-tablet) {
+    width: $container-max-width-tablet;
+  }
+  @media (max-width: $breakpoint-tablet-md) {
+    width: $container-max-width-tablet-md;
+  }
+  @media (max-width: $breakpoint-mob) {
+    width: $container-max-width-mob;
+  }
+}
+.wrapper {
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+
+  // .wrapper__content
+  &__content {
+    padding-top: 80px;
+  }
+}

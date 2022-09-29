@@ -1,0 +1,94 @@
+// xl,lg,md,nr,sm,xsm
+// Размеры заголовков
+
+.title {
+  // .title-xl
+  &-xl {
+    font-size: 48px;
+    line-height: 121%;
+  }
+  //   .title-lg
+  &-lg {
+    font-size: 38px;
+    line-height: 126%;
+  }
+  //   .title-md
+  &-md {
+    font-size: 40px;
+    line-height: 125%;
+  }
+  // .title-nr
+  &-nr {
+    font-size: 20px;
+    line-height: 240%;
+  }
+  // .title-sm
+  &-sm {
+    font-size: 18px;
+  }
+}
+
+// Размеры текстов
+.text {
+  // .text-xl
+  &-xl {
+    font-size: 18px;
+    line-height: 156%;
+  }
+  // .text-lg
+  &-lg {
+    font-size: 16px;
+    line-height: 162%;
+  }
+  // .text-md
+  &-md {
+    font-size: 12px;
+    line-height: 183%;
+  }
+}
+
+// Классы для цвета текста
+
+.color {
+  // .color-simple-brown
+  &-simple-brown {
+    color: $color-simple-brown;
+  }
+  //   .color-brown-light
+  &-brown-light {
+    color: $color-brown-light;
+  }
+  //   .color-pink-deep
+  &-pink-deep {
+    color: $color-pink-deep;
+  }
+  //   .color-pink-light
+  &-pink-light {
+    color: $color-pink-light;
+  }
+  // .color-brown-deep-dark
+  &-brown-deep {
+    color: $color-brown-deep-dark;
+  }
+  // .color-simple-grey
+  &-simple-grey {
+    color: $color-simple-grey;
+  }
+  // .color-simple-white
+  &-simple-white {
+    color: $color-simple-white;
+  }
+}
+// Хелперы
+.bold {
+  font-weight: 700;
+}
+.font {
+  // .font-montserrat
+  &-montserrat {
+    font-family: 'Montserrat';
+  }
+}
+.transform {
+  text-transform: uppercase;
+}

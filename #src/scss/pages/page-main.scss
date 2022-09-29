@@ -1,0 +1,36 @@
+.page-main {
+  // .page-main__intro
+  &__intro {
+    margin-top: 135px;
+    @media (max-width: $breakpoint-mob) {
+      margin-top: 35px;
+    }
+  }
+  // .page-main__stat
+  &__stat {
+    margin-top: 285px;
+    margin-bottom: 120px;
+    @media (max-width: $breakpoint-mob) {
+      margin-top: 120px;
+      margin-bottom: 60px;
+    }
+  }
+  // .page-main__landing
+  &__landing {
+    margin-bottom: 230px;
+    @media (max-width: $breakpoint-mob) {
+      margin-bottom: 60px;
+    }
+  }
+  // .page-main__features
+  &__features {
+    margin-bottom: 140px;
+    @media (max-width: $breakpoint-mob) {
+      margin-bottom: 60px;
+    }
+  }
+  // .page-main__web-structure
+  &__web-structure {
+    margin-bottom: 236px;
+  }
+}

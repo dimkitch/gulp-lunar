@@ -1,0 +1,35 @@
+.subscribe {
+    // .subscribe__inner
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 600px;
+    }
+    // .subscribe__subtitle
+    &__subtitle{
+        margin-bottom: 9px;
+    }
+    // .subscribe__title
+    &__title{
+    margin-bottom: 127px;
+    }
+
+    // .subscribe__input
+    &__input {
+        padding-left: 20px;
+        border: 2px solid $color-pink-light;
+        border-radius: 10px;
+        min-height: 56px;
+        margin-bottom: 20px;
+    }
+    // .subscribe__btn
+    &__btn {
+        margin-bottom: 32px;
+    }
+    // .subscribe__comment
+    &__comment{
+        margin-bottom: 44px;
+    }
+}

@@ -1,0 +1,29 @@
+.landing {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  // .landing__inner
+  &__inner {
+  }
+  // .landing__subtitle
+  &__subtitle {
+    margin-bottom: 9px;
+  }
+  // .landing__title
+  &__title {
+    margin-bottom: 71px;
+  }
+  // .landing__cards
+  &__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 0 80px;
+    @media (max-width: $breakpoint-desktop-md) {
+      grid-template-columns: 1fr;
+    }
+    @media (max-width: $breakpoint-tablet-md) {
+      padding: 0;
+    }
+  }
+}

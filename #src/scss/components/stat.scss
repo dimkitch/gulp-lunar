@@ -1,0 +1,43 @@
+.stat {
+  margin-top: 50px;
+  background-color: $color-pink-deep;
+  padding-bottom: 121px;
+  //   .stat__image
+  &__inner {
+    transform: translateY(-25%);
+    margin: 0 auto;
+    max-width: 785px;
+    overflow: hidden;
+    margin-bottom: 110px;
+  }
+  //   .stat__image-size
+  &__image-size {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.stat__cards {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 785px;
+  overflow: hidden;
+  background-color: $color-simple-white;
+  border-radius: 19px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  @media (max-width: $breakpoint-tablet) {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  //   .stat-card__inner
+}
+.stat-card {
+  &__inner {
+    padding: 60px 0;
+  }
+}

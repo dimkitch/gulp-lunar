@@ -1,0 +1,18 @@
+.info-pages {
+  // .info-pages__title
+  &__title {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  // .info-pages__list
+  &__list {
+  }
+
+  // .info-pages__link
+  &__link {
+    &:not(:last-child) {
+      margin-bottom: 14px;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.features {
+  background-color: $color-simple-white;
+  // .features__inner
+  &__inner {
+    text-align: center;
+  }
+  // .features__subtitle
+  &__subtitle {
+    padding-top: 120px;
+    margin-bottom: 9px;
+    @media (max-width: $breakpoint-mob) {
+      padding-top: 60px;
+    }
+  }
+  // .features__title
+  &__title {
+    margin-bottom: 60px;
+  }
+  // .features__cards
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding-bottom: 120px;
+    @media (max-width: $breakpoint-tablet) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: $breakpoint-mob) {
+      grid-template-columns: 1fr;
+      padding-bottom: 60px;
+    }
+  }
+}

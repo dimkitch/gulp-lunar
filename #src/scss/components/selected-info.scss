@@ -1,0 +1,27 @@
+.selected-info {
+  // .selected-info__title
+  &__title {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  // .selected-info__list
+  &__list {
+  }
+
+  // .selected-info__item
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 14px;
+    }
+  }
+
+  // .selected-info__link
+  &__link {
+    display: flex;
+    align-items: center;
+  }
+  // .selected-info__image
+  &__image {
+    margin-right: 10px;
+  }
+}
